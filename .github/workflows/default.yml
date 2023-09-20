@@ -1,0 +1,11 @@
+name: Default Pipeline
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  scan-secrets:
+    uses: ./.github/workflows/00-scan-secrets.yml
