@@ -1,4 +1,4 @@
-# Godot Typescript Testing (GoTT) 👼=👾⌨📃📃
+# Godot Typescript Testing (GoTT) 👼=👾⌨📃🧪
 
 This is a simple testing project to use the [Godot Engine](https://github.com/godotengine/godot) and [ECMAScript](https://github.com/Geequlim/ECMAScript).
 
