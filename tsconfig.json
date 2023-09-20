@@ -1,0 +1,11 @@
+{
+  "include": ["."],
+  "exclude": [],
+  "compilerOptions": {
+    "rootDir": ".",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "gott",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Testing for godot project using typescript",
+  "author": "Nicolas Merget",
+  "license": "MIT",
+  "scripts": {
+    "watch": "npm run build -- --watch",
+    "build": "esbuild --minify \"src/**/*.tsx\" --out-extension:.js=.jsx --bundle --outdir=scripts/generated --format=esm --target=esnext",
+    "open-editor": "godot -e --path .",
+    "start": "godot",
+    "dev": "npm-run-all -p watch open-editor"
+  },
+  "devDependencies": {
+    "commander": "^11.0.0",
+    "esbuild": "0.19.3",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^3.9.7",
+    "prettier": "3.0.3",
+    "prettier-plugin-pkg": "0.18.0"
+  },
+  "types": "./godot.d.ts",
+  "dependencies": {
+    "dayjs": "1.11.10"
+  }
+}
