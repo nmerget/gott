@@ -3,3 +3,7 @@ node_modules
 !**/.gdignore
 **/*.import
 scripts/generated
+build
+export_presets.cfg
+templates
+/.godot/

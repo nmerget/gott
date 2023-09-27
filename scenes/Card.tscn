@@ -1,0 +1,8 @@
+[gd_scene format=2]
+
+[node name="Card" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_right = 599.0
+margin_bottom = 323.0
+text = "Test"

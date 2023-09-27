@@ -2,10 +2,16 @@
   "include": ["."],
   "exclude": [],
   "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext"],
     "rootDir": ".",
     "isolatedModules": true,
-    "esModuleInterop": true,
+    "skipLibCheck": true,
     "moduleResolution": "node",
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve"
   }
 }
