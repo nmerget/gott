@@ -1,6 +1,6 @@
-import Extend from "res://scripts/gd/Extend.gd";
+import { gdclass } from "./decorators";
+// import Extend from "res://scripts/gd/Extend.gd";
 
-// TODO: Cannot extend from gdscript, get error 'parent class must be constructor'
 export default class ExtendTest extends godot.Node {
   _ready(): void {
     /* console.log("call");

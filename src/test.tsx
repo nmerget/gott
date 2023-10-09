@@ -1,7 +1,7 @@
-import { default as dayjs } from "dayjs";
+import npm from "./npm-modules";
 import { signal } from "./decorators";
-
 import Bla from "res://scripts/gd/Bla.gd";
+import ReadTest from "./readTest";
 
 export default class Test extends godot.Node {
   // define a signal
@@ -14,10 +14,12 @@ export default class Test extends godot.Node {
     this.emit_signal(Test.onReady);
     const bla: Bla = Bla.new();
     bla.call("run_in_bla");
+
+    ReadTest.singleton.logTestType();
   }
 
   changeTextInLabel = () => {
-    this.label.text = dayjs().toString();
+    this.label.text = npm.dayjs().toString();
   };
 
   logExtend = () => {
