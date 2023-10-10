@@ -1,2 +1,3 @@
 import { default as dayjs } from "dayjs";
-export default { dayjs };
+import Papa from "papaparse";
+export default { dayjs, Papa };

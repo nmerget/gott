@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://scripts/generated/test.jsx" type="Script" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
 [ext_resource path="res://scripts/generated/extendTest.jsx" type="Script" id=3]
 [ext_resource path="res://new_resource.tres" type="Resource" id=4]
+[ext_resource path="res://scripts/generated/papaparseTest.jsx" type="Script" id=5]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )
@@ -32,5 +33,10 @@ margin_left = 190.0
 margin_top = 224.0
 margin_right = 230.0
 margin_bottom = 238.0
+
+[node name="Control2" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 5 )
 
 [connection signal="pressed" from="Button" to="." method="changeTextInLabel"]
