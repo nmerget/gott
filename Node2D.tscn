@@ -1,11 +1,13 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://scripts/generated/test.jsx" type="Script" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
 [ext_resource path="res://scripts/generated/extendTest.jsx" type="Script" id=3]
+[ext_resource path="res://new_resource.tres" type="Resource" id=4]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )
+stats = ExtResource( 4 )
 
 [node name="Control" type="Control" parent="."]
 margin_left = 91.0
