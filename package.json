@@ -15,7 +15,7 @@
     "watch:src": "npm run build:src -- --watch"
   },
   "devDependencies": {
-    "@types/node": "^20.11.21",
+    "@types/node": "^20.11.24",
     "@types/papaparse": "^5.3.14",
     "commander": "^12.0.0",
     "esbuild": "0.20.1",
