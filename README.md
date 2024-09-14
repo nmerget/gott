@@ -23,8 +23,8 @@ Inside the editor you are normally able to open a script inside the build in IDE
 
 ![Open script](docs/open-script.png)
 
-But we use a compiled `.jsx` file for our scripts.
-`.tsx` files can't be open in the editor.
+But we use a compiled `.mjs` file for our scripts.
+`.ts` files can't be open in the editor.
 
 So we need a workaround for this issue:
 
@@ -35,6 +35,6 @@ So we need a workaround for this issue:
 
 ![External editor](docs/external-editor.png)
 
-When you open a script from `scripts/generated/*.jsx` you should be redirected to VSCode and the original `.tsx` file should be open.
+When you open a script from `scripts/generated/*.mjs` you should be redirected to VSCode and the original `.ts` file should be open.
 
 If you like to open the file in intellij use `open.js -i idea -f {file}`

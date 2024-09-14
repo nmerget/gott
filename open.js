@@ -11,7 +11,7 @@ program
     if (file.includes("/scripts/generated")) {
       file = file
         .replace("/scripts/generated", "/src")
-        .replace(".jsx", ".tsx")
+        .replace(".mjs", ".ts")
         .replace(".js", ".ts");
     }
 
