@@ -16,7 +16,7 @@
     "watch:src": "node esbuild/classes.mjs --watch"
   },
   "devDependencies": {
-    "@types/node": "^25.0.8",
+    "@types/node": "^25.0.9",
     "@types/papaparse": "^5.5.2",
     "commander": "^14.0.2",
     "esbuild": "0.27.2",
