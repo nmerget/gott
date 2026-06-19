@@ -29,6 +29,6 @@
   "types": "./godot.d.ts",
   "dependencies": {
     "dayjs": "1.11.21",
-    "papaparse": "^5.5.3"
+    "papaparse": "^5.5.4"
   }
 }
